@@ -1,0 +1,141 @@
+:root {
+    --primary-color:rgba(196, 196, 196, 1);
+    --secondary-color: rgb(255,255,255);
+    --tertiary-color:rgba(230, 230, 230, 1);
+    --font-title-color: rgba(0, 86, 119, 1);
+    --footer-color: #005677
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: lightskyblue;
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+header img {
+    border-radius: 50%;
+    height: 18rem;
+    width: 18rem;
+}
+.title {
+    background-color:lightskyblue;
+    color: var(--font-title-color);
+    font-size: 1.2rem;
+    font-weight:bold;
+    letter-spacing: 0.8rem;
+    line-height: 2rem;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    word-spacing: 0.2rem;
+}
+.presentacion-img {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+main {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.sub-title {
+    align-items: center;
+    background-color: lightskyblue;
+    display: flex;
+    
+}
+h2 {
+    color: var(--font-title-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    line-height: 1.7rem;
+    margin-left: 1rem;
+    padding: 0.2rem;
+}
+.foto-perfil {
+    height: 15rem;
+    width: 15rem;
+}
+.info {
+    border: solid 0.6rem var(--footer-color);
+   
+    
+}
+.personal-data {
+    font-size: 1.2rem;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+}
+.personal-data span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.personal-data ul li{
+    width: 100%;
+    
+}
+.data-container {
+    font-size: 1.2rem;          
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: 2rem;  
+}
+
+.years {
+    font-weight: bold;
+    margin-right: 0.2rem;
+    margin-top: 2rem;
+}
+.educacion {
+    margin-top: 4rem;
+}
+
+footer {
+    align-items: center;
+    background-color: var(--footer-color);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size:3.4rem ;
+    font-weight: bold;
+    justify-content: space-around;
+    height: 6.2rem;
+    text-align: center;
+    padding: 0.5rem; 
+}
+footer img {
+    border-radius: 50%;
+    height: 6rem;
+    margin-top: 0.5rem;
+    width: 6rem;
+}
+footer p {
+    margin-top: 1rem;
+}
+footer span img{
+    height: 2.2rem;
+    margin-left: 1.8rem;
+    width: 2.2rem;
+}
+
+
+    
